@@ -18,11 +18,12 @@ namespace Application.DomainEventsHandlers
 
         public Task Handle(OrderStartedDomainEvent notification, CancellationToken cancellationToken)
         {
-            if (notification.Order.BuyerId==0)
+            if (notification.Order.Buyer.Id==0)
             {
                 Buyer buyer = new(notification.Buyer.FirstName,notification.Buyer.LastName);
                 _buyerRepository.AddAsync(buyer);
-            }            
+            }
+            return Task.CompletedTask;
         }
     }
 }

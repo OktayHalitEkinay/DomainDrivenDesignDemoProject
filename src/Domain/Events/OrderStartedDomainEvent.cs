@@ -9,5 +9,11 @@ namespace Domain.Events
     {
         public Buyer Buyer { get; set; }
         public Order Order { get; set; }
+
+        public OrderStartedDomainEvent(Buyer buyer, Order order)
+        {
+            Buyer = buyer;
+            Order = order;
+        }
     }
 }

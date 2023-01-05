@@ -15,6 +15,8 @@ namespace Domain.SeedWork
 
         public void AddDomainEvents(INotification notification)
         {
+            _domainEvents ??= new List<INotification>();
+            domainEvents.Add(notification);
 
         }
     }

@@ -1,4 +1,6 @@
-﻿using Domain.SeedWork;
+﻿using Domain.AggregateModels.BuyerModels;
+using Domain.Events;
+using Domain.SeedWork;
 using MediatR;
 
 namespace Domain.AggregateModels.OrderModels
@@ -8,11 +10,11 @@ namespace Domain.AggregateModels.OrderModels
         public DateTime OrderDate { get;private set; }
         public string Description { get; private set; }    
         public string OrderStatus { get; private set; }
-        public int BuyerId { get; private set; }
+        public Buyer Buyer { get; private set; }
         public Address Address { get; private set; }
         public List<OrderItem> OrderItems { get; private set; }
 
-        public Order(DateTime orderDate, string description, string orderStatus, int buyerId, Address address, List<OrderItem> orderItems)
+        public Order(DateTime orderDate, string description, string orderStatus, Buyer buyer, Address address, List<OrderItem> orderItems)
         {
             if (OrderDate<DateTime.Now)
             {
@@ -26,9 +28,11 @@ namespace Domain.AggregateModels.OrderModels
             OrderDate = orderDate;
             Description = description;
             OrderStatus = orderStatus;
-            BuyerId = buyerId;
+            Buyer = buyer;
             Address = address;
             OrderItems = orderItems;
+
+            AddDomainEvents(new OrderStartedDomainEvent(buyer,this));
         }
         public void AddOrderItem(OrderItem orderItem)
         {
