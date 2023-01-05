@@ -1,5 +1,5 @@
 ﻿using Domain.SeedWork;
-
+using MediatR;
 
 namespace Domain.AggregateModels.OrderModels
 {
@@ -30,9 +30,10 @@ namespace Domain.AggregateModels.OrderModels
             Address = address;
             OrderItems = orderItems;
         }
-        public void AddOrderItem(OrderItem item)
+        public void AddOrderItem(OrderItem orderItem)
         {
-
+            OrderItem _orderItem = new(orderItem.Quantity,orderItem.Price,orderItem.ProductId);
+            OrderItems.Add(_orderItem);
         }
     }
 }

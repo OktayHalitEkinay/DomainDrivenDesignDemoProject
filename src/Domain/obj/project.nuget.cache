@@ -1,0 +1,11 @@
+{
+  "version": 2,
+  "dgSpecHash": "UsptLvt0SxCM2HhomD2eNOObtb2hcKM/ta+4E4O+PATL7+Zc7IgCdhe16YJwxebN2Tdp5WVpzscdSg7EaAHCkg==",
+  "success": true,
+  "projectFilePath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Domain\\Domain.csproj",
+  "expectedPackageFiles": [
+    "C:\\Users\\oktay\\.nuget\\packages\\mediatr\\11.1.0\\mediatr.11.1.0.nupkg.sha512",
+    "C:\\Users\\oktay\\.nuget\\packages\\mediatr.contracts\\1.0.1\\mediatr.contracts.1.0.1.nupkg.sha512"
+  ],
+  "logs": []
+}
