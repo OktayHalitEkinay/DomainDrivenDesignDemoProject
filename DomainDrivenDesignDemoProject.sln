@@ -5,19 +5,26 @@ VisualStudioVersion = 17.4.33205.214
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "src", "src", "{1F7D2DF8-59DF-4990-BADB-EF96372F7307}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "src\Domain\Domain.csproj", "{D2BA8DF9-9654-42A2-9B99-9F6DC3E54E98}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "src\Domain\Domain.csproj", "{D2BA8DF9-9654-42A2-9B99-9F6DC3E54E98}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Application", "src\Application\Application.csproj", "{BED3FDA3-C849-4FDE-90B2-B9BF87F16C50}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Application", "src\Application\Application.csproj", "{BED3FDA3-C849-4FDE-90B2-B9BF87F16C50}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Core", "Core", "{9BC55808-BD22-4EEB-8312-487B854E3EDD}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Infrastructure", "Infrastructure", "{F137616D-FB41-423B-87AB-FEB7FFB2E4CE}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Persistence", "src\Infrastructure\Persistence\Persistence.csproj", "{D9346810-0FE9-4C09-891A-CFE5625AC55E}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "src\Infrastructure\Persistence\Persistence.csproj", "{D9346810-0FE9-4C09-891A-CFE5625AC55E}"
 EndProject
 Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Presentation", "Presentation", "{35775622-0C97-42EE-B848-A9C34BEBA2D2}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "WebApi", "src\Presentation\WebApi\WebApi.csproj", "{E1EE1C1E-8A39-4900-95A0-0102E62404D3}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "WebApi", "src\Presentation\WebApi\WebApi.csproj", "{E1EE1C1E-8A39-4900-95A0-0102E62404D3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Shared", "Shared\Shared.csproj", "{A1DC75FE-7FEE-4D98-8C1A-98E07E44054A}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Solution Items", "Solution Items", "{9324E376-7E8D-4124-B4BF-419B56813DAE}"
+	ProjectSection(SolutionItems) = preProject
+		Progress.txt = Progress.txt
+	EndProjectSection
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -41,6 +48,10 @@ Global
 		{E1EE1C1E-8A39-4900-95A0-0102E62404D3}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{E1EE1C1E-8A39-4900-95A0-0102E62404D3}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{E1EE1C1E-8A39-4900-95A0-0102E62404D3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A1DC75FE-7FEE-4D98-8C1A-98E07E44054A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A1DC75FE-7FEE-4D98-8C1A-98E07E44054A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A1DC75FE-7FEE-4D98-8C1A-98E07E44054A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A1DC75FE-7FEE-4D98-8C1A-98E07E44054A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

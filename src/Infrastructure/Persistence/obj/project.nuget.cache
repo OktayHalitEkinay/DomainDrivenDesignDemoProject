@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "6YGGjJcOB70UAtdTT3VOQeSPmRQRJyXs6OLgg6sfEc7KGZ8InaRgBW+7Jd1W8lAnUHN0RDds9orNJ/F15aOB6A==",
+  "dgSpecHash": "AZlNg+W23+M+cloGfe7diCObqlcAsBpAy56CEsuACrLlN0QdHwSFaHzvsSkZZAMjPwMaqPv5OfUOrgeK+U7esw==",
   "success": true,
   "projectFilePath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Infrastructure\\Persistence\\Persistence.csproj",
   "expectedPackageFiles": [

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Presentation\\WebApi\\WebApi.csproj": {}
+    "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\Shared\\Shared.csproj": {}
   },
   "projects": {
-    "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Presentation\\WebApi\\WebApi.csproj": {
+    "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\Shared\\Shared.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Presentation\\WebApi\\WebApi.csproj",
-        "projectName": "WebApi",
-        "projectPath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Presentation\\WebApi\\WebApi.csproj",
+        "projectUniqueName": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\Shared\\Shared.csproj",
         "packagesPath": "C:\\Users\\oktay\\.nuget\\packages\\",
-        "outputPath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\src\\Presentation\\WebApi\\obj\\",
+        "outputPath": "C:\\CodeWorkings\\DomainDrivenDesignDemoProject\\Shared\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\oktay\\AppData\\Roaming\\NuGet\\NuGet.Config",
@@ -39,16 +39,6 @@
       "frameworks": {
         "net6.0": {
           "targetAlias": "net6.0",
-          "dependencies": {
-            "MediatR": {
-              "target": "Package",
-              "version": "[11.1.0, )"
-            },
-            "Swashbuckle.AspNetCore": {
-              "target": "Package",
-              "version": "[6.2.3, )"
-            }
-          },
           "imports": [
             "net461",
             "net462",
@@ -61,9 +51,6 @@
           "assetTargetFallback": true,
           "warn": true,
           "frameworkReferences": {
-            "Microsoft.AspNetCore.App": {
-              "privateAssets": "none"
-            },
             "Microsoft.NETCore.App": {
               "privateAssets": "all"
             }
